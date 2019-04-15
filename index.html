@@ -16,7 +16,10 @@
         </a-assets>
 
         <a-marker type='barcode' value='7'>
-            <a-box position='0 0.5 0' color="yellow"></a-box>
+        <a-assets>
+            <a-asset-item id="tree-model" src="https://raw.githubusercontent.com/pavel4701/pattern-marker./master/kok2.dae" crossOrigin="anonymous"></a-asset-item>
+            <a-asset-item id="text-model" src="https://raw.githubusercontent.com/pavel4701/pattern-marker./master/kok.dae" crossOrigin="anonymous"></a-asset-item>
+       </a-assets>
         </a-marker>
 
         <a-marker id="animated-marker" type='barcode' value='6'>
