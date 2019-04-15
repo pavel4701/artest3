@@ -16,17 +16,14 @@
         </a-assets>
 
         <a-marker type='barcode' value='7'>
-        <a-assets>
-            <a-asset-item id="tree-model" src="https://raw.githubusercontent.com/pavel4701/pattern-marker./master/kok2.dae" crossOrigin="anonymous"></a-asset-item>
-            <a-asset-item id="text-model" src="https://raw.githubusercontent.com/pavel4701/pattern-marker./master/kok.dae" crossOrigin="anonymous"></a-asset-item>
-       </a-assets>
+            <a-box position='0 0.5 0' color="yellow"></a-box>
         </a-marker>
 
         <a-marker id="animated-marker" type='barcode' value='6'>
-        <a-assets>
-            <a-asset-item id="tree-model" src="https://raw.githubusercontent.com/pavel4701/pattern-marker./master/kok2.dae" crossOrigin="anonymous"></a-asset-item>
-            <a-asset-item id="text-model" src="https://raw.githubusercontent.com/pavel4701/pattern-marker./master/kok.dae" crossOrigin="anonymous"></a-asset-item>
-       </a-assets>
+            <a-entity
+                gltf-model="#animated-asset"
+                scale="2">
+            </a-entity>
         </a-marker>
 
         <!-- use this <a-entity camera> to support multiple-markers, otherwise use <a-marker-camera> instead of </a-marker> -->
