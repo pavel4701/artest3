@@ -23,10 +23,10 @@
         </a-marker>
 
         <a-marker id="animated-marker" type='barcode' value='6'>
-            <a-entity
-                gltf-model="#animated-asset"
-                scale="2">
-            </a-entity>
+        <a-assets>
+            <a-asset-item id="tree-model" src="https://raw.githubusercontent.com/pavel4701/pattern-marker./master/kok2.dae" crossOrigin="anonymous"></a-asset-item>
+            <a-asset-item id="text-model" src="https://raw.githubusercontent.com/pavel4701/pattern-marker./master/kok.dae" crossOrigin="anonymous"></a-asset-item>
+       </a-assets>
         </a-marker>
 
         <!-- use this <a-entity camera> to support multiple-markers, otherwise use <a-marker-camera> instead of </a-marker> -->
